@@ -1,0 +1,1 @@
+/home/thkim0508/ros2_ws/src/open_manipulator/open_manipulator_moveit_config/launch/open_manipulator_x_moveit.launch.py

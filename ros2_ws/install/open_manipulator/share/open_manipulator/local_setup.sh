@@ -1,0 +1,1 @@
+/home/thkim0508/ros2_ws/build/open_manipulator/ament_cmake_environment_hooks/local_setup.sh

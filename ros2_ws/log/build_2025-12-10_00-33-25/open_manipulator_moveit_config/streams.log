@@ -1,0 +1,65 @@
+[0.155s] Invoking command in '/home/thkim0508/ros2_ws/build/open_manipulator_moveit_config': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/thkim0508/ros2_ws/src/open_manipulator/open_manipulator_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/open_manipulator_moveit_config
+[0.457s] -- The C compiler identification is GNU 13.3.0
+[1.153s] -- The CXX compiler identification is GNU 13.3.0
+[1.715s] -- Detecting C compiler ABI info
+[2.434s] -- Detecting C compiler ABI info - done
+[2.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.447s] -- Detecting C compile features
+[2.447s] -- Detecting C compile features - done
+[2.766s] -- Detecting CXX compiler ABI info
+[3.871s] -- Detecting CXX compiler ABI info - done
+[3.892s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.893s] -- Detecting CXX compile features
+[3.902s] -- Detecting CXX compile features - done
+[3.903s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.250s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.418s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.685s] -- Configuring done (4.5s)
+[4.707s] -- Generating done (0.0s)
+[4.710s] -- Build files have been written to: /home/thkim0508/ros2_ws/build/open_manipulator_moveit_config
+[4.735s] Invoked command in '/home/thkim0508/ros2_ws/build/open_manipulator_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake /home/thkim0508/ros2_ws/src/open_manipulator/open_manipulator_moveit_config -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/open_manipulator_moveit_config
+[4.736s] Invoking command in '/home/thkim0508/ros2_ws/build/open_manipulator_moveit_config': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/open_manipulator_moveit_config -- -j24 -l24
+[4.885s] Invoked command in '/home/thkim0508/ros2_ws/build/open_manipulator_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/open_manipulator_moveit_config -- -j24 -l24
+[4.891s] Invoking command in '/home/thkim0508/ros2_ws/build/open_manipulator_moveit_config': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/open_manipulator_moveit_config
+[4.913s] -- Install configuration: "Release"
+[4.918s] -- Execute custom install script
+[4.923s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/launch/omx_f_moveit.launch.py
+[4.960s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/launch/omy_3m_moveit.launch.py
+[4.993s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/launch/omy_f3m_moveit.launch.py
+[5.014s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/launch/open_manipulator_x_moveit.launch.py
+[5.042s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/chomp_planning.yaml
+[5.072s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/kinematics.yaml
+[5.113s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/moveit.rviz
+[5.148s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/ompl_planning.yaml
+[5.186s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omx_f/joint_limits.yaml
+[5.210s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omx_f/kinematics.yaml
+[5.237s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omx_f/moveit_controllers.yaml
+[5.286s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omx_f/omx_f.srdf
+[5.340s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omy_3m/joint_limits.yaml
+[5.374s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omy_3m/moveit_controllers.yaml
+[5.395s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omy_3m/omy_3m.srdf
+[5.433s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omy_f3m/joint_limits.yaml
+[5.466s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omy_f3m/moveit_controllers.yaml
+[5.503s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/omy_f3m/omy_f3m.srdf
+[5.546s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/open_manipulator_x/joint_limits.yaml
+[5.568s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/open_manipulator_x/kinematics.yaml
+[5.587s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/open_manipulator_x/moveit_controllers.yaml
+[5.618s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/open_manipulator_x/open_manipulator_x.srdf
+[5.656s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/pilz_cartesian_limits.yaml
+[5.699s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[5.738s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/ament_index/resource_index/package_run_dependencies/open_manipulator_moveit_config
+[5.776s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/ament_index/resource_index/parent_prefix_path/open_manipulator_moveit_config
+[5.804s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/environment/ament_prefix_path.sh
+[5.819s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/environment/ament_prefix_path.dsv
+[5.838s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/environment/path.sh
+[5.874s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/environment/path.dsv
+[5.898s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/local_setup.bash
+[5.911s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/local_setup.sh
+[5.928s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/local_setup.zsh
+[5.946s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/local_setup.dsv
+[5.959s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/package.dsv
+[5.977s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/ament_index/resource_index/packages/open_manipulator_moveit_config
+[5.994s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/cmake/open_manipulator_moveit_configConfig.cmake
+[6.011s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/cmake/open_manipulator_moveit_configConfig-version.cmake
+[6.050s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_moveit_config/share/open_manipulator_moveit_config/package.xml
+[6.082s] Invoked command in '/home/thkim0508/ros2_ws/build/open_manipulator_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/open_manipulator_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/open_manipulator_moveit_config

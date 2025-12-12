@@ -1,0 +1,220 @@
+[1.313s] Invoking command in '/home/thkim0508/ros2_ws/build/dynamixel_hardware_interface': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thkim0508/ros2_ws/src/dynamixel_hardware_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/dynamixel_hardware_interface
+[1.983s] -- The C compiler identification is GNU 13.3.0
+[4.659s] -- The CXX compiler identification is GNU 13.3.0
+[6.893s] -- Detecting C compiler ABI info
+[7.743s] -- Detecting C compiler ABI info - done
+[7.755s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.755s] -- Detecting C compile features
+[7.755s] -- Detecting C compile features - done
+[8.081s] -- Detecting CXX compiler ABI info
+[8.956s] -- Detecting CXX compiler ABI info - done
+[8.969s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.970s] -- Detecting CXX compile features
+[8.970s] -- Detecting CXX compile features - done
+[8.973s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.167s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[9.273s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.324s] -- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[9.697s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.716s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.998s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.049s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[10.052s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[10.081s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.163s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[10.166s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.505s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.508s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.518s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.696s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.508s] -- Found dynamixel_sdk: 3.8.4 (/home/thkim0508/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[11.512s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[11.528s] -- Found dynamixel_interfaces: 1.0.1 (/home/thkim0508/ros2_ws/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake)
+[11.557s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.705s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.724s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.724s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/thkim0508/ros2_ws/src/dynamixel_hardware_interface/include>
+[11.724s] -- Configured cppcheck exclude dirs and/or files: 
+[11.735s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.735s] -- Configured cpplint exclude dirs and/or files: 
+[11.738s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.738s] -- Configured 'flake8' exclude dirs and/or files: 
+[11.742s] -- Added test 'lint_cmake' to check CMake code style
+[11.744s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.756s] -- Added test 'uncrustify' to check C / C++ code style
+[11.756s] -- Configured uncrustify additional arguments: 
+[11.758s] -- Added test 'xmllint' to check XML markup files
+[11.766s] -- Configuring done (10.4s)
+[11.815s] -- Generating done (0.0s)
+[11.821s] -- Build files have been written to: /home/thkim0508/ros2_ws/build/dynamixel_hardware_interface
+[11.848s] Invoked command in '/home/thkim0508/ros2_ws/build/dynamixel_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thkim0508/ros2_ws/src/dynamixel_hardware_interface -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/dynamixel_hardware_interface
+[11.849s] Invoking command in '/home/thkim0508/ros2_ws/build/dynamixel_hardware_interface': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/dynamixel_hardware_interface -- -j24 -l24
+[11.922s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o[0m
+[11.922s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o[0m
+[11.928s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o[0m
+[16.192s] [01m[K/home/thkim0508/ros2_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn dynamixel_hardware_interface::DynamixelHardware::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[16.192s] [01m[K/home/thkim0508/ros2_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp:61:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[16.192s]    61 |   if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K !=
+[16.192s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[16.192s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[16.192s]                  from [01m[K/home/thkim0508/ros2_ws/src/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel_hardware_interface.hpp:33[m[K,
+[16.193s]                  from [01m[K/home/thkim0508/ros2_ws/src/dynamixel_hardware_interface/src/dynamixel_hardware_interface.cpp:17[m[K:
+[16.193s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:235:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[16.193s]   235 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info)
+[16.193s]       |                          [01;36m[K^~~~~~~[m[K
+[26.131s] [100%] [32m[1mLinking CXX shared library libdynamixel_hardware_interface.so[0m
+[26.491s] [100%] Built target dynamixel_hardware_interface
+[26.504s] Invoked command in '/home/thkim0508/ros2_ws/build/dynamixel_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/dynamixel_hardware_interface -- -j24 -l24
+[26.505s] Invoking command in '/home/thkim0508/ros2_ws/build/dynamixel_hardware_interface': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/dynamixel_hardware_interface
+[26.513s] -- Install configuration: "Release"
+[26.513s] -- Execute custom install script
+[26.514s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//dynamixel_hardware_interface_plugin.xml
+[26.525s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp
+[26.534s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp
+[26.543s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel_hardware_interface.hpp
+[26.552s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/visibility_control.h
+[26.562s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/lib/dynamixel_hardware_interface//create_udev_rules
+[26.571s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/99-manipulator-cdc.rules
+[26.579s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/check_model_file_formatting.py
+[26.588s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/cluster_model_files.py
+[26.597s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/create_udev_rules
+[26.608s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/hx_synctable_model_generator.py
+[26.618s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/xml_to_model_parser.py
+[26.628s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xc430_w250.model
+[26.637s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xl430_w250.model
+[26.646s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/dynamixel.model
+[26.655s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_led.model
+[26.665s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_rcu.model
+[26.677s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g40_imu.model
+[26.688s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_1.model
+[26.699s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_2.model
+[26.710s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_3.model
+[26.721s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_1.model
+[26.733s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_2.model
+[26.745s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_3.model
+[26.756s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h42_20_s300_ra.model
+[26.767s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_100_s500_ra.model
+[26.776s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_200_s500_ra.model
+[26.786s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_1.model
+[26.795s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_2.model
+[26.804s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_3.model
+[26.813s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_4.model
+[26.822s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_5.model
+[26.832s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_1.model
+[26.843s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_2.model
+[26.853s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_3.model
+[26.864s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_4.model
+[26.873s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_5.model
+[26.883s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_1.model
+[26.892s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_2.model
+[26.901s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_3.model
+[26.911s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_4.model
+[26.920s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_5.model
+[26.930s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_1.model
+[26.939s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_2.model
+[26.948s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_3.model
+[26.958s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_4.model
+[26.967s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_5.model
+[26.976s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_1.model
+[26.986s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_2.model
+[26.996s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_3.model
+[27.004s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_4.model
+[27.014s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_5.model
+[27.022s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rl.model
+[27.031s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rr.model
+[27.040s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m42_10_s260_ra.model
+[27.049s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_40_s250_ra.model
+[27.058s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_60_s250_ra.model
+[27.066s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_106.model
+[27.077s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_28.model
+[27.085s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_64.model
+[27.094s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end.model
+[27.103s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end_rh_p12_rn.model
+[27.112s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_hat.model
+[27.121s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph42_020_s300.model
+[27.130s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_100_s500.model
+[27.140s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_200_s500.model
+[27.149s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm42_010_s260.model
+[27.158s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_040_s250.model
+[27.166s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_060_s250.model
+[27.175s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/rh_p12_rn.model
+[27.185s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/sensorxel_joy.model
+[27.196s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181.model
+[27.207s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181_fw52.model
+[27.217s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288.model
+[27.228s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288_fw52.model
+[27.238s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181.model
+[27.247s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181_fw52.model
+[27.256s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288.model
+[27.265s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288_fw52.model
+[27.275s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc335_t332.model
+[27.284s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w150.model
+[27.293s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w240.model
+[27.303s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t210.model
+[27.312s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t350.model
+[27.322s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t150.model
+[27.331s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t270.model
+[27.340s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v210.model
+[27.349s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v350.model
+[27.357s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w210.model
+[27.366s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w350.model
+[27.376s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v150.model
+[27.385s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v270.model
+[27.394s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w150.model
+[27.403s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w270.model
+[27.412s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl320.model
+[27.421s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077.model
+[27.430s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077_fw52.model
+[27.439s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288.model
+[27.447s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288_fw52.model
+[27.456s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl430_w250.model
+[27.465s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w210.model
+[27.475s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w350.model
+[27.483s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w150.model
+[27.492s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w270.model
+[27.501s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t200.model
+[27.510s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t333.model
+[27.519s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_h260.model
+[27.528s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t140.model
+[27.538s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t260.model
+[27.547s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a051.model
+[27.556s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a099.model
+[27.566s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_b001.model
+[27.575s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_m001.model
+[27.584s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r051.model
+[27.594s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r099.model
+[27.605s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a051.model
+[27.616s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a099.model
+[27.626s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_b001.model
+[27.637s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_m001.model
+[27.647s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r051.model
+[27.657s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r099.model
+[27.669s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.sh
+[27.680s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.dsv
+[27.693s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware_interface
+[27.705s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware_interface
+[27.716s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.sh
+[27.727s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.dsv
+[27.737s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.sh
+[27.746s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.dsv
+[27.756s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.bash
+[27.766s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.sh
+[27.776s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.zsh
+[27.786s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.dsv
+[27.796s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.dsv
+[27.806s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/packages/dynamixel_hardware_interface
+[27.816s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware_interface
+[27.825s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.835s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[27.844s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[27.854s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.864s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig.cmake
+[27.873s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig-version.cmake
+[27.883s] -- Symlinking: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.xml
+[27.894s] -- Installing: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so
+[27.896s] -- Set non-toolchain portion of runtime path of "/home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so" to ""
+[27.896s] -- Installing: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake
+[27.896s] -- Installing: /home/thkim0508/ros2_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport-release.cmake
+[27.899s] Invoked command in '/home/thkim0508/ros2_ws/build/dynamixel_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk:/home/thkim0508/ros2_ws/install/dynamixel_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thkim0508/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/home/thkim0508/ros2_ws/install/dynamixel_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/dynamixel_hardware_interface

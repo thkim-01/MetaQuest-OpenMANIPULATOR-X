@@ -1,0 +1,1 @@
+/home/thkim0508/ros2_ws/build/open_manipulator_bringup/launch/omy_3m_pack.launch.py

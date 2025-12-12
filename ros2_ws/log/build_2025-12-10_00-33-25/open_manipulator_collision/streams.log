@@ -1,0 +1,70 @@
+[0.053s] Invoking command in '/home/thkim0508/ros2_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/thkim0508/ros2_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/open_manipulator_collision
+[0.364s] -- The C compiler identification is GNU 13.3.0
+[1.452s] -- The CXX compiler identification is GNU 13.3.0
+[2.594s] -- Detecting C compiler ABI info
+[2.966s] -- Detecting C compiler ABI info - done
+[2.973s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.973s] -- Detecting C compile features
+[2.974s] -- Detecting C compile features - done
+[3.130s] -- Detecting CXX compiler ABI info
+[3.517s] -- Detecting CXX compiler ABI info - done
+[3.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.525s] -- Detecting CXX compile features
+[3.526s] -- Detecting CXX compile features - done
+[3.528s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.668s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.743s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.777s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.068s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.088s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.256s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.260s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.388s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.796s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.991s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.358s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[5.375s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[5.435s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[5.475s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[5.586s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.588s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.588s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.592s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[5.708s] -- Configuring done (5.6s)
+[5.727s] -- Generating done (0.0s)
+[5.731s] -- Build files have been written to: /home/thkim0508/ros2_ws/build/open_manipulator_collision
+[5.745s] Invoked command in '/home/thkim0508/ros2_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/thkim0508/ros2_ws/src/open_manipulator/open_manipulator_collision -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/open_manipulator_collision
+[5.746s] Invoking command in '/home/thkim0508/ros2_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/open_manipulator_collision -- -j24 -l24
+[5.802s] [ 50%] [32mBuilding CXX object CMakeFiles/self_collision_node.dir/src/self_collision_node.cpp.o[0m
+[34.031s] [100%] [32m[1mLinking CXX executable self_collision_node[0m
+[34.536s] [100%] Built target self_collision_node
+[34.550s] Invoked command in '/home/thkim0508/ros2_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/open_manipulator_collision -- -j24 -l24
+[34.551s] Invoking command in '/home/thkim0508/ros2_ws/build/open_manipulator_collision': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/open_manipulator_collision
+[34.560s] -- Install configuration: "Release"
+[34.560s] -- Execute custom install script
+[34.561s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/lib/open_manipulator_collision/self_collision_node
+[34.574s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/include//open_manipulator_collision/self_collision_node.hpp
+[34.588s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/self_collision.launch.py
+[34.599s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.sh
+[34.611s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/library_path.dsv
+[34.623s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/ament_index/resource_index/package_run_dependencies/open_manipulator_collision
+[34.633s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/ament_index/resource_index/parent_prefix_path/open_manipulator_collision
+[34.644s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.sh
+[34.655s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/ament_prefix_path.dsv
+[34.666s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.sh
+[34.678s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/environment/path.dsv
+[34.689s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.bash
+[34.701s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.sh
+[34.712s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.zsh
+[34.723s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/local_setup.dsv
+[34.735s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.dsv
+[34.746s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/ament_index/resource_index/packages/open_manipulator_collision
+[34.756s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.767s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.779s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/ament_cmake_export_libraries-extras.cmake
+[34.791s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig.cmake
+[34.802s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/cmake/open_manipulator_collisionConfig-version.cmake
+[34.813s] -- Symlinking: /home/thkim0508/ros2_ws/install/open_manipulator_collision/share/open_manipulator_collision/package.xml
+[34.840s] Invoked command in '/home/thkim0508/ros2_ws/build/open_manipulator_collision' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/open_manipulator_collision

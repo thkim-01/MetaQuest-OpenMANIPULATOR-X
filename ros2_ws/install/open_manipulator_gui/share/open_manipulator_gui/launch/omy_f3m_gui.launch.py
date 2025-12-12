@@ -1,0 +1,1 @@
+/home/thkim0508/ros2_ws/src/open_manipulator/open_manipulator_gui/launch/omy_f3m_gui.launch.py

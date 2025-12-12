@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-68e35c441b9ac5862379.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "dynamixel_sdk_custom_interfaces__py",
+					"jsonFile" : "directory-dynamixel_sdk_custom_interfaces__py-Release-ff9e2680440ddae1c3b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/thkim0508/ros2_ws/build/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dynamixel_sdk_custom_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg-Release-063dc2d88a065b5cf2e2.json",
+					"name" : "ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces-Release-c88871d980fcb834fb64.json",
+					"name" : "ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces-Release-6922a87fca90b284002d.json",
+					"name" : "dynamixel_sdk_custom_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__cpp-Release-64e46587d27ec14c3eab.json",
+					"name" : "dynamixel_sdk_custom_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dynamixel_sdk_custom_interfaces__py::@5c3fb1e61178127079ca",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__py-Release-271c7f31bf55060f59ac.json",
+					"name" : "dynamixel_sdk_custom_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_generator_c-Release-5804af6b3ddac2a82ae5.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_generator_py-Release-af6024d2071448515cf2.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_generator_type_description-Release-6f1fa4c33d71499d184e.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_c-Release-6ea59ecdcb2ef4857a5e.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp-Release-e52b9735de196ffbeb92.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c-Release-d187788fac6e5d477e2f.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp-Release-f30a61b4734fa9769137.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c-Release-52868876d64036c3107d.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp-Release-1d0bfd5d0f2dd9b92fda.json",
+					"name" : "dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c-Release-99036b74618c191105aa.json",
+					"name" : "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c-Release-23836e7a3a14101604e0.json",
+					"name" : "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c-Release-ab2c8834c194ca0371ad.json",
+					"name" : "dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamixel_sdk_custom_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamixel_sdk_custom_interfaces_uninstall-Release-4f0fd0290af6a66f5285.json",
+					"name" : "dynamixel_sdk_custom_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-fab6cd7c434ac063708b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thkim0508/ros2_ws/build/dynamixel_sdk_custom_interfaces",
+		"source" : "/home/thkim0508/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

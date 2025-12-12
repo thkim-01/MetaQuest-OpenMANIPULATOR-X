@@ -1,0 +1,71 @@
+[0.056s] Invoking command in '/home/thkim0508/ros2_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/thkim0508/ros2_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/om_gravity_compensation_controller
+[0.383s] -- The CXX compiler identification is GNU 13.3.0
+[1.496s] -- Detecting CXX compiler ABI info
+[2.053s] -- Detecting CXX compiler ABI info - done
+[2.061s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.061s] -- Detecting CXX compile features
+[2.061s] -- Detecting CXX compile features - done
+[2.065s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.191s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.254s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.289s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[2.293s] -- Found control_msgs: 5.5.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+[2.598s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.613s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.810s] -- Found control_toolbox: 4.9.0 (/opt/ros/jazzy/share/control_toolbox/cmake)
+[2.867s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.870s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.961s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.220s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.269s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.271s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.272s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.420s] -- Found controller_interface: 4.39.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[4.501s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[4.610s] -- Configuring done (4.5s)
+[4.655s] -- Generating done (0.0s)
+[4.663s] -- Build files have been written to: /home/thkim0508/ros2_ws/build/om_gravity_compensation_controller
+[4.679s] Invoked command in '/home/thkim0508/ros2_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/thkim0508/ros2_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thkim0508/ros2_ws/install/om_gravity_compensation_controller
+[4.681s] Invoking command in '/home/thkim0508/ros2_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/om_gravity_compensation_controller -- -j24 -l24
+[4.740s] [ 25%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/thkim0508/ros2_ws/build/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp /home/thkim0508/ros2_ws/src/open_manipulator/ros2_controller/om_gravity_compensation_controller/src/gravity_compensation_controller_parameters.yaml `[0m
+[5.422s] [ 50%] [34m[1mCreating deprecated header file /home/thkim0508/ros2_ws/build/om_gravity_compensation_controller/include/gravity_compensation_controller_parameters.hpp[0m
+[5.443s] [ 50%] Built target gravity_compensation_controller_parameters
+[5.468s] [ 75%] [32mBuilding CXX object CMakeFiles/gravity_compensation_controller.dir/src/gravity_compensation_controller.cpp.o[0m
+[33.757s] [100%] [32m[1mLinking CXX shared library libgravity_compensation_controller.so[0m
+[34.266s] [100%] Built target gravity_compensation_controller
+[34.281s] Invoked command in '/home/thkim0508/ros2_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/thkim0508/ros2_ws/build/om_gravity_compensation_controller -- -j24 -l24
+[34.282s] Invoking command in '/home/thkim0508/ros2_ws/build/om_gravity_compensation_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/om_gravity_compensation_controller
+[34.291s] -- Install configuration: "Release"
+[34.292s] -- Execute custom install script
+[34.293s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/include/om_gravity_compensation_controller/gravity_compensation_controller_parameters.hpp
+[34.306s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller//gravity_compensation_plugin.xml
+[34.317s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/gravity_compensation_controller.hpp
+[34.328s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/include/gravity_compensation_controller/gravity_compensation_controller/visibility_control.h
+[34.341s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.sh
+[34.353s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/library_path.dsv
+[34.367s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/package_run_dependencies/om_gravity_compensation_controller
+[34.379s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/parent_prefix_path/om_gravity_compensation_controller
+[34.391s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.sh
+[34.402s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/ament_prefix_path.dsv
+[34.415s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.sh
+[34.428s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/environment/path.dsv
+[34.441s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.bash
+[34.455s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.sh
+[34.467s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.zsh
+[34.481s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/local_setup.dsv
+[34.495s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.dsv
+[34.507s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/packages/om_gravity_compensation_controller
+[34.518s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/om_gravity_compensation_controller
+[34.530s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.541s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/ament_cmake_export_targets-extras.cmake
+[34.552s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig.cmake
+[34.563s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/om_gravity_compensation_controllerConfig-version.cmake
+[34.573s] -- Symlinking: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/package.xml
+[34.584s] -- Installing: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so
+[34.586s] -- Set non-toolchain portion of runtime path of "/home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/lib/libgravity_compensation_controller.so" to ""
+[34.586s] -- Installing: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport.cmake
+[34.587s] -- Installing: /home/thkim0508/ros2_ws/install/om_gravity_compensation_controller/share/om_gravity_compensation_controller/cmake/export_gravity_compensation_controllerExport-release.cmake
+[34.590s] Invoked command in '/home/thkim0508/ros2_ws/build/om_gravity_compensation_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/thkim0508/ros2_ws/build/om_gravity_compensation_controller
